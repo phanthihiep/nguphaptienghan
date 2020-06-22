@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.HomeActivity">
+    
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_230">
+        
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+        <TextView
+            android:id="@+id/tv_logo"
+            style="@style/StyleBigLargeBold"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/dimen_30"
+            android:layout_alignParentEnd="true"
+            android:text="@string/name_logo"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            style="@style/StyleBigLargeBold"
+            android:layout_below="@+id/tv_logo"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/dimen_40"
+            android:layout_alignParentEnd="true"
+            android:text="@string/name_logo2"
+            android:layout_width="@dimen/dimen_40"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        
+    </LinearLayout>
+</RelativeLayout>

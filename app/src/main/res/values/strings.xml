@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">NguPhapTiengHan</string>
+    <string name="name_logo">한국어</string>
+    <string name="name_logo2">공보해요</string>
+    <string name="content_description">image not exit</string>
 </resources>
