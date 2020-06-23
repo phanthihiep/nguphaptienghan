@@ -8,6 +8,8 @@
     <dimen name="BigLarge">30sp</dimen>
     
     <!-- width , height-->
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
     <dimen name="dimen_3">3dp</dimen>
     <dimen name="dimen_4">4dp</dimen>
     <dimen name="dimen_5">5dp</dimen>
@@ -17,5 +19,14 @@
     <dimen name="dimen_30">30dp</dimen>
     <dimen name="dimen_35">35dp</dimen>
     <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_70">70dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_90">90dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_210">210dp</dimen>
+    <dimen name="dimen_220">220dp</dimen>
     <dimen name="dimen_230">230dp</dimen>
+    <dimen name="dimen_235">235dp</dimen>
 </resources>
